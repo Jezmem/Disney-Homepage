@@ -1,0 +1,371 @@
+body
+{
+  color: white;
+  margin: 0;
+  background-color: #000;
+  font-family: Arial;
+}
+
+/*partie tom*/
+body{
+    background-image:url(assets/background.png);
+    background-size: 100%
+        
+}
+
+/*texte header*/
+
+.top{
+    font-size: 15px;
+    font-family: helvetica;
+   
+}
+.btn a{
+    padding-right: 6%;
+}
+.btn i{
+    padding-right: 1%;
+}
+.btn{
+
+    color:white;
+    background-color: transparent;
+    display: inline-block;
+    margin-top:1%;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+/*logo disney header*/
+
+#logodisney{
+    width: 6%;
+    float : left;
+    margin-left: 1%
+}
+
+/*icone profil header*/
+
+#icone{
+
+    width: 60px;
+    display: flex;
+    float:right;
+    padding-left: 1100px; 
+
+}
+
+/*marque*/
+
+.marque{
+    height: 10%;
+    width: 90%;
+    border: solid;
+    border-color:#50575e ;
+    border-radius: 10%;
+    background-image: linear-gradient(rgb(58, 60, 74), rgb(36, 38, 50));
+    color:white;
+    box-shadow: 1px 1px 22px black;
+}
+.case{
+    display:inline-block;
+    max-width: 290px;
+    margin-top: 2%;
+    margin-right: 10px;
+}
+
+
+.disney{
+    margin-left: 50px;
+}
+
+/*header hover*/
+
+#home:hover{
+    text-decoration: underline 2px white;   
+}
+#search:hover{
+    text-decoration: underline 2px white;   
+}
+#list:hover{
+    text-decoration: underline 2px white; 
+}
+#original:hover{
+    text-decoration: underline 2px white;   
+}
+#film:hover{
+    text-decoration: underline 2px white;    
+}
+#serie:hover{
+    text-decoration: underline 2px white;  
+}
+
+/*case hover*/
+
+.disneyh:hover{
+    background: black;    
+}
+
+.pixarh:hover{
+    background: black;    
+}
+
+.marvelh:hover{
+    background: black;    
+}
+
+.starwarsh:hover{
+    background: black;    
+}
+
+.natgeoh:hover{
+    background: black;    
+}
+
+.starh:hover{
+    background: black;    
+}
+
+/*gros carousel*/
+
+.wrapper1
+{
+  display: grid;
+  grid-template-columns: repeat(2, 100%);
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.wrapper1 section 
+{
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  margin: 20px 0;
+}
+
+.wrapper1 section .item .heading 
+{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+}
+
+/*flèche carroussel*/
+
+.wrapper1 section .arrow__btn 
+{
+  position: absolute;
+  color: #fff;
+  text-decoration: none;
+  font-size: 6em;
+  background: black;
+  width: 80px;
+  padding: 20px;
+  text-align: center;
+  z-index: 1;
+}
+
+.wrapper1 section .left-arrow 
+{
+  top: 130px;
+  bottom: 130px;
+  right: 1280px;
+  left: 30px;
+  background: transparent;
+  opacity: 10%;
+}
+
+.wrapper1 section .right-arrow 
+{
+  top:130px ;
+  bottom: 130px;
+  right: 0px;
+  left: 1740px;
+  background: transparent;
+  opacity: 10%;
+}
+
+.item1{
+    height: 400px;
+    width: 1300px;
+    cursor :pointer;
+}
+
+/*image carroussel*/
+
+.item1 img{
+    height: 400px;
+    width: 1790px;
+    margin-left: 55px;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding-top: 1px;
+    box-shadow: 1px 1px 22px black;
+    cursor :pointer;
+    background-size: 2000px
+        
+}
+.carimg1{
+        background-image: url(assets/Diaporama/1.jpg);
+}
+.carimg2{
+        background-image: url(assets/Diaporama/1B.jpg);
+}
+
+
+/*partie yannis*/
+
+/*texte carousel 1*/
+.nomc1
+{
+    font-weight: bold;
+    font-size: 120%;
+}
+
+/*texte carousel 2*/
+.nomc2
+{
+    font-weight: bold;
+    font-size: 120%;
+}
+
+/*texte carousel 3*/
+.nomc3
+{
+    font-weight: bold;
+    font-size: 120%;
+}
+
+/*carousel*/
+
+.wrapper 
+{
+  display: grid;
+  grid-template-columns: repeat(3, 100%);
+  overflow: hidden;
+  scroll-behavior: smooth;
+  background:;  
+}
+
+.wrapper section 
+{
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  margin: 20px 0;
+}
+
+.wrapper section .item 
+{
+  position: relative;
+  padding: 0 15px;
+  transition: 250ms all;
+}
+
+.wrapper section .item:hover 
+{
+  margin: 0 40px;
+  transform: scale(1.2);
+}
+
+.wrapper section .item .heading 
+{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+}
+
+.wrapper section .item .duration 
+{
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  color: #fff;
+}
+
+.wrapper section .arrow__btn 
+{
+  position: absolute;
+  color: #fff;
+  text-decoration: none;
+  font-size: 6em;
+  background: black;
+  width: 80px;
+  padding: 20px;
+  text-align: center;
+  z-index: 1;
+}
+
+/*fleche gauche*/
+.wrapper section .left-arrow 
+{
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, black 100%);
+}
+
+/*fleche droite*/
+.wrapper section .right-arrow 
+{
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 100%);
+}
+
+#divy
+{
+    background-color: #131313;
+    padding: 2%;
+}
+
+/*footer*/
+
+#footer
+{
+    background-color: #000000; 
+    color: aliceblue;
+    font-family: helvetica;
+}
+
+#footer #logofooter
+{
+    height: 10%;
+    width: 10%;
+}
+
+.listfoo1
+{
+    text-align: center;
+}
+
+.listfoo1 li
+{
+    display: inline-block;
+    padding-right: 2%;
+    
+}
+
+.listfoo2
+{
+    text-align: center;
+}
+
+.listfoo2 li
+{
+    display: inline-block;
+    padding-right: 2%;
+    
+}
+
+.textfoo
+{
+    text-align: center; 
+    padding-bottom: 1%;
+}
